@@ -1,0 +1,15 @@
+
+
+
+c=float(input('what is your speed: '))
+speed=float(c)
+
+if speed < 10:
+   print('slow')
+elif speed > 50 and speed < 100:
+   print('avarage')
+elif speed > 100:
+   print('fast')
+else:
+   print('ultra')
+

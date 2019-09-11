@@ -1,0 +1,25 @@
+#!/usr/bin/env python
+
+####those sript show personal information####
+
+
+
+pers={
+
+  "name": "joro",
+  "jobs": "DTS",
+  "sity": "sofia",
+  "street": "kukush"
+
+}
+
+
+for x, y  in pers.items():
+  print(x, y)
+
+
+if "jobs" in pers:
+   print('jobs')
+ 
+
+print(len(pers))
