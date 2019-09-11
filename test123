@@ -1,0 +1,24 @@
+
+
+
+x=133
+
+while  x < 299:
+  x += 23
+  print(x)
+
+
+y=int(input())
+
+
+if y %2 == 0:
+   bonus=1
+   print(bonus)
+elif y %5 == 0:
+   bonus=3
+   print(bonus)
+
+
+else:
+   bonus=5
+   print(bonus)

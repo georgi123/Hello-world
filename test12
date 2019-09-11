@@ -1,0 +1,11 @@
+
+
+import os
+
+x=20
+
+while x < 25:
+
+   x += 1
+  
+  os.system('touch $x /home')

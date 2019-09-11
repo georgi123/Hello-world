@@ -1,0 +1,12 @@
+
+
+a=raw_input("enter value a: ")
+b=raw_input("enter value b: ")
+
+
+if a>b:
+ print("a is more then b")
+elif a==b:
+ print("a is equal on b")
+else:
+ print("b is more then a") 
